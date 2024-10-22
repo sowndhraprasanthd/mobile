@@ -1,0 +1,165 @@
+nav {
+    background-color:rgb(227, 224, 208);
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#logo {
+    height: 50px;
+    width: 150px;
+    float: left;
+}
+
+#ss{
+    display: none;
+}
+
+.navs{
+    margin-left: 30%;
+}
+
+#sam{
+    height: 500px;
+    width: 100%;
+
+}
+a {
+    margin-left:10px ;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+h4 {
+    float: left;
+    padding-left: 500px;
+}
+
+
+footer{
+    background-color:slategray;
+    display: flex;
+    gap: 13%;
+
+}
+
+#dsp {
+    background-color:seashell;
+    
+}
+#dsp > button{
+    background-color:slategray;
+    height: 60px;
+    width: 100px;
+}
+#box {
+    height: 350px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:whitesmoke;
+    border-radius: 8px;
+    margin-top: 5px;
+    box-shadow: 1px 1px 2px black;
+    
+}
+
+
+#img {
+    padding-top: 30px;
+    height: 150px;
+    width: 150px;
+
+}
+#boxbutton {
+    background-color:oldlace;
+    border-radius: 5px;
+    width: 90px;
+    height: 50px;
+    box-shadow: 1px 1px 1px black;
+}
+
+#boxbutton:hover{
+    box-shadow: inset 2px 2px 2px red;
+}
+.productContainer{
+    background: "#D9DE9";
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    place-content: start space-evenly;
+}
+
+
+@media (max-width:900px){
+        .navs {
+            margin-left:50px;
+        }
+        h4 {
+      padding-left: 600px;
+        }
+
+}
+
+@media (max-width:1024px){
+    .navs {
+        margin-left:30px;
+    }
+    h4 {
+  padding-left: 400px;
+    }
+
+}
+
+@media (max-width:800px){
+    .navs {
+        margin-left:10px;
+    }
+    h4 {
+  padding-left: 200px;
+    }
+
+}
+
+@media (max-width:500px){
+   
+   nav {
+    height: 190px;
+    flex-wrap: wrap;
+   }
+
+   
+    #navs {
+       display: flex;
+       float: left;
+       flex-direction: column;
+
+    }
+    
+
+}
+@media (max-width:576px){
+    #samm{
+        display: block;
+        
+       
+    }
+    #ss{
+        display: block;
+        height: 20px;       
+      
+        margin: 20px 0px 0px 20px;
+    }
+    #samm{
+        display: none;
+
+    }
+}

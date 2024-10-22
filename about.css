@@ -1,0 +1,66 @@
+body {
+    background-color: orchid;
+    margin-left: 40px;
+}
+
+#box2 {
+    margin-left: 300px;
+    width: 500px;
+}
+
+
+a:hover {
+    color:pink;
+    text-decoration: underline;
+}
+
+#box3 {
+    width: 1200px;
+}
+@media (max-width:1280px){
+    #navs {
+        margin-left:50px;
+    }
+    h4 {
+  padding-left: 400px;
+    }
+
+}
+
+@media (max-width:1024px){
+#navs {
+    margin-left:30px;
+}
+h4 {
+padding-left: 400px;
+}
+
+}
+
+@media (max-width:800px){
+#navs {
+    margin-left:10px;
+}
+h4 {
+padding-left: 200px;
+}
+
+}
+
+@media (max-width:500px){
+
+nav {
+height: 190px;
+flex-wrap: wrap;
+}
+
+
+#navs {
+   display: flex;
+   float: left;
+   flex-direction: column;
+
+}
+
+
+}

@@ -1,0 +1,44 @@
+
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+form {
+    background-color: grey;
+    padding: 5px;
+    height: 700px;
+    width: 650px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 450px;
+
+}
+#input {
+    margin-top: 30px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+label {
+    margin-top:15px;
+}
+
+button {
+   margin-top: 30px;
+   width: 80px;
+   background-color: rebeccapurple;
+   border: none;
+   height: 30px;
+   font-size: x-small;
+   border-radius: 5px;
+}
+
+#check {
+    width: 0px;
+}
